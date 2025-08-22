@@ -1,0 +1,55 @@
+#container{
+    font-family: "Oswald", sans-serif;
+}
+
+h1{
+    text-align: center;
+}
+
+h3{
+   font-weight: 500; 
+}
+
+#left-list{
+    width: 45%;
+    display: inline-block;
+    border: 1px solid red;
+    border-radius: 15px;
+    vertical-align: top;
+    padding: 10px;
+}
+
+#right-list{
+    width: 45%;
+    display: inline-block;
+    border: 1px dashed red;
+    border-radius: 15px;
+    vertical-align: top;
+    padding: 10px;
+}
+
+#home{
+    width: 100%;
+    margin-top: 60%;
+    margin-bottom: 20px;
+}
+
+a{
+    float: right;
+}
+
+a:hover{
+    color: red;
+    text-decoration: underline;
+}
+
+ol.books{
+    list-style-type: decimal;
+    font-weight: 300;
+}
+
+ul.lesson{
+    list-style-type: upper-roman;
+    font-weight: 300;
+}
+
