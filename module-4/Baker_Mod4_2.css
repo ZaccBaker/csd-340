@@ -1,0 +1,53 @@
+h1,h3{
+    text-align: center;
+}
+
+h1{
+    color: #701919;
+}
+
+h3{
+    color: #CD5C5C;
+}
+
+#container{
+    font-family: "Oswald", sans-serif;
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+#image-gallery{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    border: 1px solid #CD5C5C;
+    border-radius: 15px;
+    margin-top: 10%;
+    background-color: #140909;
+}
+
+figure{
+    text-align: center;
+}
+
+figcaption{
+    font-style: italic;
+    font-size: .75em;
+    color: #C0C0C0;
+}
+
+#home{
+    width: 100%;
+    margin-top: 10%;
+    margin-bottom: 20px;
+}
+
+a{
+    float: right;
+    color: blue;
+}
+
+a:hover{
+    color: #CD5C5C;
+}
+
