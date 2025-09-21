@@ -1,0 +1,73 @@
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+h1,h3{
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+p {
+    line-height: 1.4em;
+    text-indent: 2em;
+}
+
+address {
+    text-align: center;
+}
+
+a {
+    font-weight: bold;
+    font-size: 1.25em;
+    color: #4F3674;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #D6A800;
+    text-decoration-line: underline;
+}
+
+a:visited {
+    color: #74364f;
+}
+
+.sentence {
+    font-style: italic;
+}
+
+.intro {
+    text-indent: 2em;
+}
+
+
+button{
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    border-radius: 8px;
+    padding: 20px 15px;
+    
+}
+
+#buttons{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 10px;
+}
+
+footer{
+    float: right;
+}
+
+#frustration, #WarcraftIII, #golf, #Alien{
+    font-weight: bold;
+}
