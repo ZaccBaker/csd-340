@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>CSD 340 Web Development with HTML and CSS</title>
+
+    <link href="Baker_Mod10_3.css" type="text/css" rel="stylesheet"/>
+
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <h1>Assignment 10.3: JavaScript - Part 2</h1>
+
+    <hr />
+
+    <h3>Celebrity Transformations</h3>
+    <p>
+        Celebrities often go varies transformations for their roles. I selected the "three Chris'" as their transformations shocked everyone 
+        when they hit the big screen. 
+    </p>
+    <p>
+        Click each image to read more about each of their transformations, what they worked on or any challenges they had.
+    </p>
+
+    <div id="image-gallery">
+        <figure id="side-by-side">
+            <img class="image-dynamic" src="resources/chris_evans_before.png" alt="Chris Evans" width="300" height="400"
+                onmouseover="changeImg(1,this)" onmouseout="changeImg(2,this)"
+                onclick="window.open('https://www.businessinsider.com/chris-evans-transformed-arms-legs-for-captain-america-trainer-2022-1', '_blank')">
+            <figcaption>Chris Evans</figcaption>
+        </figure>
+
+        <figure id="side-by-side">
+            <img class="image-dynamic" src="resources/chris_hemsworth_before.png" alt="Chris Hemsworth" width="300" height="400"
+                onmouseover="changeImg(3,this)" onmouseout="changeImg(4,this)"
+                onclick="window.open('https://centr.com/blog/show/16012/chris-hemsworth-reveals-his-muscle-building-secrets-with-centr-power', '_blank')">
+            <figcaption>Chris Hemsworth</figcaption>
+        </figure>
+
+        <figure id="side-by-side">
+            <img class="image-dynamic" src="resources/chris_pratt_before.png" alt="Chris Pratt" width="300" height="400"
+                onmouseover="changeImg(5,this)" onmouseout="changeImg(6,this)"
+                onclick="window.open('https://pursuitist.com/interview-with-guardians-of-the-galaxys-chris-pratt', '_blank')">
+            <figcaption>Chris Pratt</figcaption>
+        </figure>
+    </div> 
+    
+
+    <footer>
+            <a href="../index.html">Return to Landing Page</a>
+    </footer>
+</body>
+
+</html>

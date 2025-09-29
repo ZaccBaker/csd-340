@@ -1,0 +1,20 @@
+function changeImg(x, image){
+    if(x==1){
+        image.src="resources/chris_evans_after.png"
+    }
+    if(x==2){
+        image.src="resources/chris_evans_before.png"
+    }
+    if(x==3){
+        image.src="resources/chris_hemsworth_after.png"
+    }
+    if(x==4){
+        image.src="resources/chris_hemsworth_before.png"
+    }
+    if(x==5){
+        image.src="resources/chris_pratt_after.png"
+    }
+    if(x==6){
+        image.src="resources/chris_pratt_before.png"
+    }
+}

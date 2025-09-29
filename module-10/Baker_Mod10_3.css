@@ -1,0 +1,44 @@
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+h1,h3{
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+p{
+    text-align: center;
+}
+
+#image-gallery{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    border: 1px solid black;
+    border-radius: 15px;
+    margin-top: 10%;
+}
+
+.image-dynamic{
+    border: 2px solid black;
+    border-radius: 15px;
+    padding: 15px;
+}
+
+figure{
+    text-align: center;
+}
+
+figcaption{
+    font-style: italic;
+    font-size: .75em;
+    color: black;
+}
+
+footer{
+    float: right;
+}
