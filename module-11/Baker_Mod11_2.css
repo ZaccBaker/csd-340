@@ -1,0 +1,37 @@
+body,input,button,select{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+h1,h3{
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+p{
+    text-align: center;
+}
+
+#control-main,#control-optional{
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+input,select{
+    padding: 20px 15px;
+}
+
+button{
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    border-radius: 8px;
+    padding: 20px 15px;
+}
+
+footer{
+    float: right;
+}
